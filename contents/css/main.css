@@ -1,0 +1,42 @@
+
+.counter {
+  background: transparent;
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+}
+.screen {
+  background: transparent;
+  width: 75%;
+  height: 10%;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-2%, -10%);
+}
+.center {
+  top: 50%;
+  left: 50%;
+}
+.pos {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.add {
+  background-color: transparent;
+  width: 5%;
+  height: 5%;
+  top: 48%;
+  left: 41%;
+  border-width: 0;
+  color: #fff;
+  position: absolute;
+  transform: translate(510%, 190%);
+}
+.container{
+  background-image: url(/design/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  position: relative;
+}
